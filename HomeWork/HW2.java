@@ -7,18 +7,19 @@ public class HW2 {
             throws InvalidNumberException, DivisionByZeroException, NumberOutOfRangeException, NumberSumException {
         // 1 задача
 //        try {
-//            checkPositiveNumber();
+//            task1();
 //        }catch (InvalidNumberException e){
 //            System.out.println(e.getMessage() + " " + e.getNum());
 //        }
 
         // 2 задача
 //        try {
-//            System.out.println(division());
+//            System.out.println(task2());
 //        }catch (DivisionByZeroException e){
 //            System.out.println(e.getMessage());
 //        }
-
+        
+        // 3 задача
         try {
             task3();
         }catch (DivisionByZeroException | NumberOutOfRangeException | NumberSumException e){
